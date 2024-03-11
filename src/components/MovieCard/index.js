@@ -3,6 +3,7 @@ import './index.css'
 
 const MovieCard = props => {
   const {movieDetails} = props
+  //   console.log(movieDetails)
   const {id, title, posterPath, voteAverage} = movieDetails
 
   return (
