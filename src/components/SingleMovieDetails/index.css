@@ -1,6 +1,6 @@
 p {
-  font-family: 'Montserrat';
-  color: black;
+  font-family: 'roboto';
+  color: #ffffff;
 }
 .movie-name {
   font-size: x-large;
@@ -53,11 +53,11 @@ p {
 .section-container-movie-details {
   position: relative;
   min-height: 80vh;
-  background-color: beige;
+  background-color: #282B33;
 }
 .text-container {
   margin-left: 10px;
-  color: black;
+  color: #ffffff;
 }
 @media screen and (max-width: 1024px) {
   .text-container {
@@ -65,6 +65,6 @@ p {
   }
 }
 .genres {
-  color: #fff;
+  color: #ffffff;
   list-style: none;
 }

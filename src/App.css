@@ -13,6 +13,7 @@ body {
 
 .App {
   min-height: 100vh;
+  background-color: #272B33;
 }
 
 .route-page-body {

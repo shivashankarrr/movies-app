@@ -11,7 +11,7 @@ import SearchMoviesContext from './context/SearchMoviesContext'
 
 import './App.css'
 
-const API_KEY = 'f32b79895b21468afbdd6d5342cbf3da'
+const API_KEY = '1bdb85e28f6ac85127ee5663fece46c6'
 
 // write your code here
 const App = () => {
@@ -52,7 +52,7 @@ const App = () => {
         onChangeSearchInput,
       }}
     >
-      <div className="App d-flex flex-column">
+      <div>
         <Switch>
           <Route exact path="/" component={Popular} />
           <Route exact path="/top-rated" component={TopRated} />
